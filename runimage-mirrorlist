@@ -1,3 +1,4 @@
+Server = https://storage.yandexcloud.net/$repo/repo/$arch
 Server = https://$repo-repo.static.hf.space/$arch
 Server = https://huggingface.co/spaces/$repo/repo/resolve/main/$arch
 Server = https://github.com/$repo/repo/releases/download/$arch
