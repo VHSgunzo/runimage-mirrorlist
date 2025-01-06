@@ -9,7 +9,8 @@ arch=('any')
 license=('MIT')
 source=('runimage-mirrorlist')
 sha256sums=('SKIP')
+install='mirrorlist.install'
 
 package() {
-  install -Dm644 runimage-mirrorlist "${pkgdir}/etc/pacman.d/runimage-mirrorlist"
+  install -Dm644 'runimage-mirrorlist' "${pkgdir}/etc/pacman.d/runimage-mirrorlist"
 }
