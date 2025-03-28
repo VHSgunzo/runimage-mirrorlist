@@ -1,7 +1,7 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-mirrorlist'
-pkgver='0.5'
+pkgver='0.6'
 pkgrel='1'
 pkgdesc='Pacman mirrorlist for RunImage container'
 url="https://github.com/VHSgunzo/runimage-mirrorlist"
